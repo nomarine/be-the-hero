@@ -1,0 +1,45 @@
+Recurso: representado por uma rota; geralmente é relacionado a alguma entidade de banco de dados
+
+Métodos HTTP
+GET: busca uma informação do back-end.
+POST: cria uma informação do back-end.
+PUT: alterar uma informação do back-end.
+DELETE: deletar uma informação no bak-end.
+
+P: Posso utilizar outros métodos além do GET em uma rota?
+R: Sim, porém o navegador toda vez que acessa uma nova página utiliza o método GET.
+
+Tipos de parâmetros
+Query: Parâmetros nomeados enviados na rota após "?" que servem para filtros, paginação.
+    request.query
+    ex: http://localhost:3333/users?page=1&name=rafael
+Route: utilizados para identificar recursos.
+    request.params
+    ex: htttp://localhost:3333/users/:id
+Request Body: o que sobra; corpo da requisição utilizado para criar ou alterar recursos.
+    request.body
+    Os dados são enviados por uma estrutura de dados (ex: json, xml)
+
+P: Qual é a utilidade do pacote nodemon?
+R: Monitorar alterações no código do projeto e atualizar automaticamente a aplicação em execução.
+
+P: Qual a diferença entre pacotes salvos sob 'dependencies' e 'devDependencies'?
+R: Todos os pacotes que serão utilizados pelo projeto em produção serão vinculados às dependências padrão; 
+já os pacotes que só serão utilizados no densenvolvimento serão vinculados às dependência de densenvolvimento (devDependencies).
+
+Banco de Dados
+SQL
+NoSQL
+
+Driver: síntaxe tradicional. ex: SELECT * FROM compendium
+Query Builder: síntaxe javascript. ex: table('compendium').select('*')
+
+P: Como exportar uma variável no node?
+R: module.exports = nome_do_pacote
+
+P: O que são migrations?
+R: Funciona como um log das alterações feitas nas tabelas do banco de dados que pode ser utilizado para fazer
+restauração dos dados.
+
+P: O que são headers?
+R: É um bloco de informação que contem os dados referentes ao contexto da requisição.
