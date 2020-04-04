@@ -1,0 +1,8 @@
+Componente: função javascript que retorna HTML.
+JSX: Javascript XML, interseção de javascript e HTML.
+Live Reload: atualização das informações em tempo real.
+Propriedades: parâmetros de um componente que são interpretados como atributos HTML.
+Estado: em React, uma informação não pode ser simplesmente alterada por meio de uma variável; uma variável em React, é um array que possui duas posições: a primeira é o estado original, e a segunda é o estado para que ela será alterada.
+Imutabilidade: a informação de uma variável jamais é alterada, mas sim seu estado.
+
+Cliente HTTP: responsável por realizar chamadas às APIs do backend e receber as respostas.
