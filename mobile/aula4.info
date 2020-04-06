@@ -1,0 +1,20 @@
+P: Quais as diferenças entro O React Native e o ReactJS?
+R: Os componentes não são as tradicionais tags do HTML, mas sim classes do React Native;
+a semântica deles é mais genérica, não possuindo muita diversidade para diferenciação
+de componentes; a estilização é feita por meio de uma classe chamada StyleSheet, que se comporta
+de modo semelhantes ao CSS.
+
+Estlização de elementos:
+É por padrão que todos os elementos da aplicação tenham como display o atributo flexbox, não sendo
+possível a mudança para qualquer outra atribuição;
+A síntaxe das propriedades não levam mais hífen, em comparação com o CSS, mas sim camel case.
+Elementos aninhados não herdam as propriedades dos parents, sendo necessário a estilização individual
+de cada um.
+
+P: Uma imagem em formato PNG será mostrada da mesma forma em um dispositivo Android e em um iOS?
+R: Não, pois há diferença entre a densidade de pixels que um dispositivo renderiza. 
+Por exemplo: o iOS tem uma densidade 3x maior que o padrão.
+
+Depp Linking: metodologia mobile que designa endereços para cada aplicação, disponibilizando formas
+de executar chamadas a elas.
+
